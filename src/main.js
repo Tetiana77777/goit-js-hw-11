@@ -4,8 +4,8 @@ import 'izitoast/dist/css/iziToast.min.css';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
-import { getImage } from './js/pixabay-api';
-import { imageTemplate } from './js/render-functions';
+import { getImage } from './js/pixabay-api.js';
+import { imageTemplate } from './js/render-functions.js';
 
 const form = document.querySelector('.form');
 const inputForm = document.querySelector('.input-form');
