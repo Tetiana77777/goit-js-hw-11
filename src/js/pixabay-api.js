@@ -2,7 +2,7 @@ export function getImage(inputValue) {
   const BASE_URL = 'https://pixabay.com';
   const END_POINT = '/api';
   const params = new URLSearchParams({
-    key: '42962590-b9bb006e5b1e7f6cfce132ccb',
+    key: '43094925-102acc99687b818cc3e092daf',
     q: inputValue,
     image_type: 'photo',
     orientation: 'horizontal',
